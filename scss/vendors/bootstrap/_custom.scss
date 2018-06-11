@@ -1,0 +1,22 @@
+
+$green:   #00FFC4;
+
+$primary   : $green;
+
+
+$link-color: $green;
+$body-bg   : #1A1B1D;
+
+$font-family-sans-serif: "Raleway", Roboto, "Helvetica Neue", Arial, sans-serif;
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3),
+  6: ($spacer * 9)
+);
+@import "node_modules/bootstrap/scss/bootstrap";
